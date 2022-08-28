@@ -49,5 +49,5 @@ elif "翻譯" and "日文" in text:
     Trans_Jp(text)
 elif ("寄" in text) or ("郵件" in text):
     Gmail_api()
-elif ("下載" in text and "音樂" in text):
-    DownLoad_Vedio()
+#elif ("下載" in text and "音樂" in text):
+#    DownLoad_Vedio()
