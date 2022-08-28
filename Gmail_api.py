@@ -32,7 +32,7 @@ def Gmail_api():
     content["subject"] = subtext  # 郵件標題
 
     #text = input("寄件者: ")
-    content["from"] =  "ricky93093020160616@gmail.com" #寄件者
+    content["from"] =  "yourGmail@gmail.com" #寄件者
 
     text = input("收件者: ")
     content["to"] = text  # 收件者
